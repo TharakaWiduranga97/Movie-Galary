@@ -1,0 +1,28 @@
+<div class="login-container">
+  <img class="film" src="assets/film.png" alt="">
+  <div class="logo">
+    Rotten Potatoes
+  </div>
+  <div class="desc">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore dolores,
+    libero natus praesentium quibusdam rem sapiente. Aliquam at excepturi fuga laboriosam
+    molestias neque numquam pariatur
+    quidem tempora vel! Et?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Fugiat hic illo, in iusto libero officiis unde! Adipisci aut, culpa dolorum fuga hic incidunt
+    nulla quae quibusdam quidem sapiente, totam ullam.
+  </div>
+  <div class="login-form">
+    <div class="form-group">
+      <label for="uname" >UserName</label>
+      <input type="text" id="uname" name="uname" class="form-control"  [(ngModel)]="username" />
+    </div>
+    <div class="form-group">
+      <label for="pword" >Password</label>
+      <input type="password" id="pword" name="pword" class="form-control" [(ngModel)]="password" />
+    </div>
+    <div class="btn-container">
+      <div class="error">{{errorMsg}}</div>
+      <button class="btn btn-dark" (click)="login()">login</button>
+    </div>
+  </div>
+</div>
