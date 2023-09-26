@@ -1,7 +1,7 @@
 <div class="login-container">
   <img class="film" src="assets/film.png" alt="">
   <div class="logo">
-    Rotten Potatoes
+    Movie Galary
   </div>
   <div class="desc">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore dolores,
@@ -10,10 +10,19 @@
     quidem tempora vel! Et?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Fugiat hic illo, in iusto libero officiis unde! Adipisci aut, culpa dolorum fuga hic incidunt
     nulla quae quibusdam quidem sapiente, totam ullam.
+    <i class="fa-solid fa-angle-up fa-rotate-90"></i>
+
   </div>
-  <div class="login-form">
+   <div class="btn-outer">
+     <button class="btn btn-dark log-btn" (click)="login()">Watch Now <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/></svg></button>
+   </div>
+
+
+
+  <!-- <div class="login-form">
+
     <div class="form-group">
-      <label for="uname" >UserName</label>
+      <label for="uname" >Click here to login to movie galary</label>
       <input type="text" id="uname" name="uname" class="form-control"  [(ngModel)]="username" />
     </div>
     <div class="form-group">
@@ -22,7 +31,7 @@
     </div>
     <div class="btn-container">
       <div class="error">{{errorMsg}}</div>
-      <button class="btn btn-dark" (click)="login()">login</button>
+
     </div>
-  </div>
-</div>
+  </div> -->
+ </div>

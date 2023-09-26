@@ -10,6 +10,7 @@ import { MovieComponent } from './movie/movie.component';
 import {FormsModule} from "@angular/forms";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {FeatureModule} from "./feature/feature.module";
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
@@ -27,7 +28,8 @@ import {FeatureModule} from "./feature/feature.module";
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    FeatureModule
+    FeatureModule,
+    FontAwesomeModule
 
   ],
   providers: [],

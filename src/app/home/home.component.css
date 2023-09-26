@@ -14,19 +14,19 @@
 
 }
 .top .view-all{
-  color:#ff9900;
+  color:#227093;
   cursor: pointer;
 }
 .top h4{
   text-transform: uppercase;
   font-weight: bold;
-  border-left: 5px solid #fdc827;
+  border-left: 5px solid #227093;
   padding-left: 5px;
 }
 .all-movies{
   width:75%;
 
-  border-right: 1px solid #fdc827;
+  border-right: 1px solid #227093;
   padding: 20px 40px;
   font-family: "Roboto Light",sans-serif;
 }
@@ -40,7 +40,7 @@
  h4{
   text-transform: uppercase;
   font-weight: bold;
-  border-left: 5px solid #fdc827;
+  border-left: 5px solid #227093;
   padding-left: 5px;
 }
 .movies-thumbnail{
@@ -98,7 +98,7 @@ height: 30px;
 }
 
 .view-all{
-  color: #ff9900;
+  color: #227093;
   text-align: right;
   margin-top: 30px;
   cursor: pointer;
